@@ -1,0 +1,44 @@
+@import url(./partials/global.css);
+
+.template {
+  display: flex;
+  padding: 10px;
+  background-color: #1f272b;
+  justify-content: space-around;
+}
+.first-template {
+  color: rgb(255, 255, 255);
+}
+
+.second-template ul {
+  color: rgb(240, 248, 255);
+  display: flex;
+  list-style-type: none;
+}
+
+ul li {
+  margin: 0 10px 0 10px;
+  color: rgb(255, 255, 255);
+}
+
+.template-nav {
+  position: sticky;
+  display: flex;
+  padding: 10px;
+  background-color: black;
+  justify-content: space-around;
+}
+
+nav .logo {
+  line-height: 100px;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.right-nav {
+  color: rgb(240, 248, 255);
+  display: flex;
+  list-style: none;
+  line-height: 100px;
+}
