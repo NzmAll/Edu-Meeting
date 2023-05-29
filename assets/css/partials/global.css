@@ -1,5 +1,66 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+div {
+  display: block;
+}
+
+.container {
+  max-width: 1300px;
+}
+
+.template {
+  display: flex;
+  padding: 10px;
+  background-color: #1f272b;
+  justify-content: space-around;
+}
+
+ul li {
+  margin: 0 10px 0 10px;
+  color: rgb(255, 255, 255);
+  list-style: none;
+}
+
+p {
+  line-height: 25px;
+}
+
+.part {
+  border-radius: 20px;
+}
+
+.row {
+  max-width: 100%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-4 {
+  width: 34%;
+}
+
+.col-8 {
+  width: 66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-9 {
+  width: 25%;
 }

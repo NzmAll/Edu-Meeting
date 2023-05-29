@@ -1,13 +1,11 @@
 @import url(./partials/global.css);
 
-.template {
-  display: flex;
-  padding: 10px;
-  background-color: #1f272b;
-  justify-content: space-around;
-}
 .first-template {
   color: rgb(255, 255, 255);
+}
+
+.first-template p a {
+  color: rgb(255, 255, 0);
 }
 
 .second-template ul {
@@ -16,22 +14,17 @@
   list-style-type: none;
 }
 
-ul li {
-  margin: 0 10px 0 10px;
-  color: rgb(255, 255, 255);
-}
-
 .template-nav {
   position: sticky;
   display: flex;
   padding: 10px;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   justify-content: space-around;
 }
 
 nav .logo {
   line-height: 100px;
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-size: 30px;
 }
@@ -41,4 +34,237 @@ nav .logo {
   display: flex;
   list-style: none;
   line-height: 100px;
+}
+
+.video {
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  color: rgb(255, 255, 255);
+  margin: 50px;
+}
+
+.text h6 {
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+.text h2 {
+  font-size: 40px;
+}
+
+.text p {
+  max-width: 500px;
+  padding: 30px 0;
+}
+
+.join-button {
+  font-size: 15px;
+  background-color: rgb(0, 255, 255);
+  padding: 10px 30px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.join-button a {
+  color: rgb(255, 255, 255);
+}
+
+.services-section {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.section-heading {
+  margin-bottom: 60px;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.service-item {
+  width: 300px;
+  margin: 15px;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgb(0, 255, 255);
+}
+
+.service-item i {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.service-item h3 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.service-item p {
+  font-size: 15px;
+}
+
+section.services-section {
+  background-image: url("./partials/pexels-pixabay-531880.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.services-section .part {
+  background-color: rgb(255, 255, 255);
+}
+
+.down-content {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+.upcaming-meeting h2 {
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.categories {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 40px;
+  margin-right: 45px;
+}
+
+.categories h3 {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.categories ul li {
+  color: rgb(0, 0, 0);
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.upcoming-button {
+  width: 100%;
+  text-align: center;
+}
+
+.upcoming-button a {
+  color: rgb(255, 255, 255);
+  padding: 10px 30px;
+  background-color: rgb(165, 42, 42);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.meeting-lecture {
+  margin-bottom: 30px;
+}
+
+.meeting-lecture .part {
+  position: relative;
+}
+
+.meeting-lecture .part .price {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.meeting-lecture .down-content {
+  padding: 30px;
+}
+
+.meeting-lecture .down-content .date {
+  text-align: center;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.apply-degree {
+  background-image: url("./partials/compute-ea4c57a4.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.apply-degree .part {
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+}
+
+.apply-degree .part p {
+  color: rgb(255, 255, 255);
+}
+
+.apply-degree .part h3 {
+  color: rgb(255, 255, 255);
+}
+
+section.contact-us {
+  background-image: url("./partials/pexels-pixabay-531880.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0 0 0;
+}
+
+.contact {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 40px;
+}
+
+section.contact-us .contact h2 {
+  border-bottom: 1px solid rgb(0, 0, 0);
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+section.contact-us .number {
+  background-color: rgb(165, 42, 42);
+  border-radius: 20px;
+  padding: 40px;
+}
+
+section.contact-us .number ul li {
+  border-bottom: 1px solid rgb(0, 0, 0);
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 140px;
+  border-top: 1px solid rgb(255, 255, 255);
+  padding: 50px 0;
+}
+
+.footer p {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+.footer p a {
+  color: rgb(255, 255, 0);
 }
